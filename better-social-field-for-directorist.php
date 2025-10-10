@@ -11,8 +11,7 @@
  * Author URI: https://obiplabon.com
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: bsfd
- * Domain Path: /languages
+ * Text Domain: better-social-field-for-directorist
  * Requires Plugins:  directorist
  */
 if ( ! defined( 'ABSPATH' ) ) exit;
@@ -97,7 +96,8 @@ class Better_social_field_for_directorist {
 				'id'         => $id,
 				'label'      => $parts[1] ?? ucwords( $id ),
 				'icon'       => $parts[2] ?? 'fa fa-' . $id,
-				'placeholder'=> $parts[3] ?? sprintf( __( 'Enter your %s profile URL', 'bsfd' ), $id ),
+				/* translators: %s: social media ID */
+				'placeholder'=> $parts[3] ?? sprintf( __( 'Enter your %s profile URL', 'better-social-field-for-directorist' ), $id ),
 			];
 		}, $social_media ) );
 
@@ -110,12 +110,12 @@ class Better_social_field_for_directorist {
 
 	public function add_settings_submenu( $submenu ) {
 		$submenu['better_social_field_submenu'] = [
-			'label'    => __('Better Social Field', 'bsfd'),
+			'label'    => __('Better Social Field', 'better-social-field-for-directorist'),
 			'icon'     => '<i class="fa fa-connectdevelop"></i>',
 			'sections' => [
 				'general_section' => [
-					'title'       => __('Better Social Field', 'bsfd'),
-					'description' => __('Format: <code>id|Label|icon-class|placeholder</code><br>e.g: <code>facebook|Facebook|fab fa-facebook|Enter your Facebook profile URL</code>', 'bsfd'),
+					'title'       => __('Better Social Field', 'better-social-field-for-directorist'),
+					'description' => __('Format: <code>id|Label|icon-class|placeholder</code><br>e.g: <code>facebook|Facebook|fab fa-facebook|Enter your Facebook profile URL</code>', 'better-social-field-for-directorist'),
 					'fields'      => [ 'bsfd_supported_social_media'],
 				],
 			]
@@ -126,9 +126,9 @@ class Better_social_field_for_directorist {
 
 	public function register_setting_fields( $fields ) {
 		$fields['bsfd_supported_social_media'] = [
-			'label'       => __( 'Supported Social Media', 'bsfd' ),
+			'label'       => __( 'Supported Social Media', 'better-social-field-for-directorist' ),
 			'type'        => 'textarea',
-			'description' => __( 'Enter one social network per line. When empty, the default set will be used.', 'bsfd' ),
+			'description' => __( 'Enter one social network per line. When empty, the default set will be used.', 'better-social-field-for-directorist' ),
 			'value'       => implode( "\n", $this->get_default_social_media() ),
 			'placeholder' => 'facebook|Facebook|fab fa-facebook|Enter your Facebook profile URL',
 		];

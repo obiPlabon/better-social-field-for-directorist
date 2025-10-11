@@ -9,10 +9,10 @@
  * Tested up to: 6.2
  * Author: Md Obidullah (obiPlabon)
  * Author URI: https://obiplabon.com
- * License: GPLv2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * License: GPLv3
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: better-social-field-for-directorist
- * Requires Plugins:  directorist
+ * Requires Plugins: directorist
  */
 if ( ! defined( 'ABSPATH' ) ) exit;
 

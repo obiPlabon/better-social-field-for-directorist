@@ -7,6 +7,7 @@ Tested up to: 6.8
 Stable tag: 1.0.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Donation link: https://obiplabon.com
 
 Enhance the Directorist social media field with a faster, smarter, and cleaner user experience — no unnecessary AJAX, no duplicates, and simpler UI.
 
@@ -45,14 +46,19 @@ Perfect for any directory site that wants faster, more intuitive listing forms.
 3. The better social field will automatically replace the default one in your Directorist listing forms.
 
 == Frequently Asked Questions ==
-Does this plugin replace the Directorist social media field automatically?
+
+= Does this plugin replace the Directorist social media field automatically? =
 Yes. Once activated, the default social field is replaced by the optimized version.
 
-Can I limit which social media options are shown?
+= Can I limit which social media options are shown? =
 Yes. You can configure which social networks are available from settings panel. `Directory Listings > Settings > Extensions > Better Social Field`.
 
-Will it work with my existing listings?
+= Will it work with my existing listings? =
 Yes. Your existing social links will continue to work as before — this plugin only changes the UI, not your data.
 
-Does it support custom themes or styling?
+= Does it support custom themes or styling? =
 Absolutely. The field inherits your theme and Directorist’s default styles.
+
+== Changelog ==
+= 1.0.0 -  26 Oct 2025 =
+- Initial release

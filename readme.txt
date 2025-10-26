@@ -7,7 +7,7 @@ Tested up to: 6.8
 Stable tag: 1.0.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Donation link: https://obiplabon.com
+Donate link: https://obiplabon.com/contact
 
 Enhance the Directorist social media field with a faster, smarter, and cleaner user experience — no unnecessary AJAX, no duplicates, and simpler UI.
 
@@ -58,6 +58,11 @@ Yes. Your existing social links will continue to work as before — this plugin 
 
 = Does it support custom themes or styling? =
 Absolutely. The field inherits your theme and Directorist’s default styles.
+
+== Screenshots ==
+
+1. Listing form view — Better social field for directorist
+2. Settings panel — Better social field for directorist
 
 == Changelog ==
 = 1.0.0 -  26 Oct 2025 =

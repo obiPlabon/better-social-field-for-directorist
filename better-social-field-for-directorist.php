@@ -6,7 +6,7 @@
  * Version: 1.0.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
- * Tested up to: 6.2
+ * Tested up to: 6.8
  * Author: Md Obidullah (obiPlabon)
  * Author URI: https://obiplabon.com
  * License: GPLv3

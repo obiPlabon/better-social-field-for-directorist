@@ -1,6 +1,9 @@
 .gitignore
 .DS_Store
 README.md
-.git
 .distignore
 dist
+/.wordpress-org
+/.git
+/.github
+/node_modules

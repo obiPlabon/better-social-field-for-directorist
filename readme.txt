@@ -40,6 +40,13 @@ Perfect for any directory site that wants faster, more intuitive listing forms.
 - Compatible with all modern browsers.
 - Works seamlessly with the latest Directorist version.
 
+💼 Hire Me
+
+Need help customizing Directorist or building your own WordPress plugin, theme or site?
+I specialize in WordPress plugin and site development, performance optimization with 10+ years of experience.
+
+[👉 Hire me here](https://obiplabon.com/contact)
+
 == Installation ==
 1. Upload the plugin files to `/wp-content/plugins/better-social-field-for-directorist`, or install via the WordPress Plugins screen.
 2. Activate the plugin through the ‘Plugins’ screen in WordPress.
